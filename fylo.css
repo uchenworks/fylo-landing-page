@@ -1,9 +1,4 @@
-/* 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
 
-    font-family: 'Raleway', sans-serif;
-  */
 
 * {
   padding: 0;
@@ -536,7 +531,7 @@ a:hover {
 
   .button-container {
     position: relative;
-    right: 17%;
+    right: 16%;
   }
 
   .input-span-email {
