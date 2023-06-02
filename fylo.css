@@ -1,0 +1,553 @@
+/* 
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    font-family: 'Raleway', sans-serif;
+  */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+  line-height: 1.5;
+}
+
+/*************** Typography *****************/
+.logo {
+  width: 5.5em;
+}
+
+li,
+a {
+  font-size: 0.85rem;
+  color: hsl(238, 22%, 44%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: hsl(243, 87%, 12%);
+
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 0.75rem;
+  color: hsl(238, 22%, 44%);
+}
+
+h2 {
+  font-size: 1rem;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+p {
+  font-size: 0.75rem;
+  color: hsl(238, 22%, 44%);
+}
+
+.p-tag {
+  text-align: left;
+  margin-bottom: 1em;
+  margin-left: 2.5em;
+  display: inline-block;
+}
+
+.span-tag {
+  font-size: 0.75rem;
+  color: hsl(238, 22%, 44%);
+  text-align: left;
+  display: block;
+  margin-left: 2.5em;
+}
+
+.input-span {
+  font-size: 0.65rem;
+  opacity: 70%;
+  position: relative;
+  right: 7em;
+}
+
+.input-span-email {
+  font-size: 0.65rem;
+  opacity: 70%;
+  position: relative;
+  right: 4em;
+}
+
+h1,
+h4 {
+  margin-bottom: 1.5em;
+}
+h3 {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+h6 {
+  opacity: 80%;
+}
+
+.bio-text-size {
+  font-size: 0.65rem;
+}
+.bio-text-size2 {
+  font-size: 0.45rem;
+  opacity: 60%;
+}
+
+.early-access {
+  color: #fff;
+  margin-bottom: 1em;
+  opacity: 60%;
+}
+
+.anchor {
+  color: #fff;
+  opacity: 80%;
+}
+
+.anchor:hover,
+.anchor:focus {
+  color: hsl(224, 93%, 58%);
+}
+/* Typography closed */
+
+/********************* Navigation ************************/
+
+.inner-tex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navigation,
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+.navigation {
+  justify-content: space-around;
+}
+
+ul {
+  gap: 25px;
+  align-items: center;
+}
+
+li,
+a:hover {
+  color: hsl(170, 45%, 43%);
+}
+
+/* Navigation closed */
+
+/*********************** Layouts ***************************/
+
+/*** lock-up-container ***/
+
+.lock-up-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lockup-text-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration-one,
+.illustration-two {
+  width: 20em;
+  height: 25em;
+}
+
+.input-field-container {
+  border: 1px solid hsl(238, 22%, 44%);
+  padding: 0.85em 7em 0.85em 7em;
+  margin-bottom: 1em;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.get-started-btn {
+  padding: 0.75em 8em 0.75em 8em;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.get-started-btn:hover,
+.get-started-btn:focus {
+  background-color: hsl(170, 45%, 43%);
+}
+
+/* lock-up-container-end */
+
+/********* middle-container **********/
+
+.middle-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline-div {
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+
+.p-underline {
+  margin-bottom: 5px;
+  color: hsl(170, 45%, 43%);
+}
+
+.arrow-icon {
+  background-color: hsl(170, 45%, 43%);
+  border-radius: 100px;
+  margin-left: 5px;
+}
+
+.customer-testimonial-container {
+  margin-top: 2em;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  width: 18em;
+  height: 11em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 3px;
+}
+
+.bio-container {
+  margin-top: 1em;
+}
+
+.img-profile {
+  width: 2em;
+  border-radius: 100px;
+  float: left;
+  margin: 0 8px 10px 0;
+}
+
+/* middle-container-end */
+
+/********* third-small-container **********/
+
+.third-small-container {
+  margin-top: 2em;
+  width: 100%;
+  height: 20em;
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  display: flex;
+  text-align: center;
+  padding: 4em 3em;
+}
+
+.input-email {
+  padding: 0.85em 5em 0.85em 5em;
+  margin-bottom: 0.35em;
+  background-color: #fff;
+  border: none;
+  font-size: 0.65rem;
+  cursor: pointer;
+}
+.input-button {
+  padding: 0.85em 5em 0.85em 5em;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: #fff;
+  font-size: 0.65rem;
+  cursor: pointer;
+}
+
+.input-button:hover,
+.input:focus {
+  background-color: hsl(170, 45%, 43%);
+}
+
+/* third-small-container */
+
+/********* footer section **********/
+
+.footer-container {
+  width: 100%;
+  height: 40em;
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+.footer-logo {
+  width: 8em;
+  margin-top: 5em;
+  padding-left: 2em;
+}
+
+.leftside-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 1em;
+  padding-left: 2em;
+}
+
+.phone-icon {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.email-icon {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.middleside-footer {
+  margin-top: 2em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+}
+
+.right-side-footer {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+}
+
+.icon-footer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  width: 6em;
+}
+
+/************************ Responsiveness ***********************/
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .logo {
+    margin-right: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    margin-right: 55%;
+  }
+
+  /********* Lockup-responsive **********/
+
+  .lock-up-container {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .illustration-one {
+    width: 30em;
+  }
+
+  h1 {
+    text-align: left;
+    margin-bottom: 1em;
+    align-items: center;
+  }
+
+  h4 {
+    text-align: left;
+
+    white-space: pre-wrap;
+
+    padding: 0;
+
+    position: relative;
+    right: 15%;
+  }
+
+  .button-container {
+    position: relative;
+    right: 6.5%;
+  }
+
+  .get-started-btn {
+    padding: 0.75em 4em 0.75em 4em;
+  }
+
+  /*** Lockup-responsive-end***/
+
+  /********* Middle-container-responsive **********/
+
+  .midddle-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .inner-middle-text-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 30%;
+  }
+
+  .p-tag {
+    white-space: pre-wrap;
+    margin-bottom: 0;
+  }
+
+  .span-tag {
+    white-space: pre-wrap;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-left: 2.8em;
+    margin-bottom: 0;
+  }
+
+  .underline-div {
+    position: relative;
+    right: 38%;
+  }
+
+  .customer-testimonial-container {
+    position: relative;
+    right: 33%;
+  }
+
+  .illustration-two {
+    width: 30em;
+    position: relative;
+    top: 30em;
+    left: 20%;
+  }
+  /*** middle-container-responsive-end***/
+
+  /********* Third-small-container-responsive **********/
+
+  .third-small-container {
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .inner-third-small-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smaller-inner-btn-container {
+    position: absolute;
+    left: 70%;
+  }
+
+  .input-email {
+    padding: 1em 9em 1em 9em;
+    margin-bottom: 2em;
+  }
+
+  .input-button {
+    padding: 1em 2em 1em 2em;
+  }
+
+  .early-access {
+    white-space: pre-line;
+  }
+
+  /***third-container-responsive-end***/
+
+  /********* Footer-responsive **********/
+  .h3-footer {
+    font-size: 0.75rem;
+  }
+
+  .middleside-footer {
+    position: absolute;
+    left: 30%;
+    bottom: 59%;
+  }
+
+  .right-side-footer {
+    position: absolute;
+    left: 50%;
+    bottom: 64%;
+  }
+
+  .social-icons {
+    position: absolute;
+    left: 75%;
+    bottom: 66%;
+  }
+}
+
+@media (min-width: 1100px) {
+  h1 {
+    white-space: pre-wrap;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    position: relative;
+    right: 22%;
+  }
+
+  .button-container {
+    position: relative;
+    right: 17%;
+  }
+
+  .input-span-email {
+    font-size: 0.65rem;
+    opacity: 70%;
+    position: relative;
+    right: 7em;
+  }
+
+  .customer-testimonial-container {
+    position: relative;
+    right: 32%;
+  }
+}
